@@ -230,7 +230,7 @@ while True:
       
   while stage == 4:
     trap = input("\033[1;33;40m\nPlease enter the code (12*2 divided by 6): ")
-    if (trap.isnumeric() and trap == "4") :
+    if (trap.isnumeric() and trap == "4") :  # Try to invalidate wrong / non-integer input by checking that input is integer and is = 4 (the answer)
       typewriter("\033[1;32;40m\nAccess granted, you must now cross the rickety bridge.")
       time.sleep(1)
       draw_bridge()
@@ -241,7 +241,7 @@ while True:
       typewriter("\033[1;36;40m\nYou now see you have 2 options, go to a room full of treasure or, continue on your path to fight Icarus")
       print("")
       stage = 5
-    else:  # Try to invalidate wrong / non-integer input 
+    else:  
       typewriter("\033[1;31;40m\nWrong code, please enter a number.")
 
   while stage == 5: 
