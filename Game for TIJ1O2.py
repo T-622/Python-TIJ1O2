@@ -1,4 +1,5 @@
-# Done in VSCode & Python 3.8.4 32-bit
+# UTF-8 CRLF
+# Done in VSCode & Python 3.8.4 32-bit interpreter
 # Copyright 2020-2021 Tpeppy  
 # Reproduction without citation is not permitted
 # Licensed under GNU GPLv3.0 
