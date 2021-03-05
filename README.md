@@ -6,6 +6,7 @@ Text-based game done for my TIJ1O2 GR.9 class.
 Features:
 - Game combines a typewriter element for text printing and numerical + text input sequence to decide if a player moves onto another level or not.
 - Uses colored writing to denote type of stage (Table and defs. at top of file.)
+- Implements global health counter as a challanging element.
 
 Running:
 - Save the .py game file in a location
